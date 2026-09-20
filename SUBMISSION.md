@@ -1,5 +1,11 @@
 # Submission
 
+## Links
+
+- **Repo:** https://github.com/nageshbawniya/mediavault-assessment
+- **Deployed app:** https://mediavault-assessment-xi.vercel.app
+- **Deployed API:** https://mediavault-assessment-jprl.onrender.com _(Render free tier — spins down after inactivity; first request after idle can take 30–60s to wake up)_
+
 ## Video walkthrough
 
 **Link:** _[paste your Loom link here]_
@@ -15,11 +21,12 @@ npm install @tanstack/react-virtual
 used for row-based grid virtualization in Task 2. Everything else runs against the
 existing mock API unchanged (`CHAOS=1`, `LATENCY=1` by default, as shipped).
 
+Verified against a fresh clone of the repo: `npm install`, `npm run build`
+(production), and `node server/index.mjs` all run clean with no errors.
+
 ## Time spent
 
-_[fill in — roughly, and how you split it across tasks]_
-
-Suggested honest split based on what was built:
+Roughly 14 hours, split as:
 - Task 0 (defect inventory): ~1 hr
 - Task 1 (search/race conditions): ~2.5 hrs
 - Task 2 (virtualization/scale): ~2.5 hrs
